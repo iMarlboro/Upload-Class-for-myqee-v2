@@ -11,7 +11,7 @@ Upload-Class-for-myqee-v2
 根据你的偏好设置来控制要被上传的文件，在控制器里，建立了如下的偏好设置：
 
     $config['upload_path']   = './uploads/';
-  $config['allowed_types'] = 'gif|jpg|png';
+    $config['allowed_types'] = 'gif|jpg|png';
 	$config['max_size']      = '100';
 	$config['max_width']     = '1024';
 	$config['max_height']    = '768';
